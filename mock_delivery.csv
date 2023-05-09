@@ -1,0 +1,20 @@
+match_id,bowler,extra_runs,bowling_team,total_runs
+1,Pathan,1,Kings XI Punjab,5
+1,Pathan,2,Kings XI Punjab,5
+1,Pathan,1,Kings XI Punjab,1
+2, Steyn,4,Royal Challengers Bangalore, 4
+2, Steyn,1,Royal Challengers Bangalore, 2
+2, Unadkat,6,Kolkata Knight Riders, 6
+2, Unadkat,1,Kolkata Knight Riders, 1
+3, Bumrah, 1,Mumbai Indians, 1
+3, Bumrah, 0,Mumbai Indians, 1
+3, Bumrah, 0,Mumbai Indians, 2
+4,B Kumar,1,Sunrisers Hyderabad,2
+4,B Kumar,1,Sunrisers Hyderabad,3
+4,B Kumar,1,Sunrisers Hyderabad,6
+5, Thakur,2, Chennai Super Kings,2
+5, Thakur,0, Chennai Super Kings,4
+5, Thakur,1, Chennai Super Kings,1
+6, Boult, 1, Rajasthan Royals,1
+6, Boult, 1, Rajasthan Royals,7
+6, Boult, 0, Rajasthan Royals,0
