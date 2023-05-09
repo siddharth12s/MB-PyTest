@@ -1,13 +1,22 @@
+'''
+Importing csv module for reading csv files
+'''
 import csv
 
 
 class IPL:
+    '''
+        IPL class created which have various methods for testing our data
+    '''
     def __init__(self, matchpath, deliverypath):
         self.match_data_path = matchpath
         self.delivery_data_path = deliverypath
         self.teams = []
 
     def matches_played(self):
+        '''
+            Method used for testing total matches played per season
+        '''
         match_played_per_season = {}
         with open(self.match_data_path, "r", encoding="utf8") as matchfile:
             match_reader = csv.DictReader(matchfile)
@@ -19,6 +28,9 @@ class IPL:
         return match_played_per_season
 
     def matches_won_all_team(self):
+        '''
+            Method used for testing matches won by a team in a season
+        '''
         matches_won_by_team_in_season = {}
         with open(self.match_data_path, "r", encoding="utf8") as matchfile:
             match_reader = csv.DictReader(matchfile)
@@ -37,6 +49,9 @@ class IPL:
         return matches_won_by_team_in_season
 
     def extra_runs_conceded(self):
+        '''
+            Method used for testing extra runs conceded by teams in year 2016
+        '''
         with open(self.delivery_data_path, "r", encoding="utf8") as deliveryfile:
             delivery_reader = csv.DictReader(deliveryfile)
             delivery_list = list(delivery_reader)
@@ -60,6 +75,9 @@ class IPL:
         return extra_runs_by_team_2016
 
     def top_economical_bowler_2015(self):
+        '''
+            Method used to test and find top economical bowlers in 2015
+        '''
         with open(self.delivery_data_path, "r", encoding="utf8") as deliveryfile:
             delivery_reader = csv.DictReader(deliveryfile)
             delivery_list = list(delivery_reader)
